@@ -1,42 +1,33 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: local('Roboto Medium'),
+    url(./fonts/Roboto-Medium.ttf);
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('./fonts/Roboto-Light.ttf') format('ttf');
-    font-display: swap;
-    font-weight: 300;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url('./fonts/Roboto-Regular.ttf') format('ttf');
-    font-display: swap;
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url('./fonts/Roboto-Medium.ttf') format('ttf');
-    font-display: swap;
-    font-weight: 500;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url('./fonts/Roboto-Bold.ttf') format('ttf');
-    font-display: swap;
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: 'Roboto-Black';
+  src: local('Roboto Medium'),
+    url(./fonts/Roboto-Black.ttf);
+}
 
-  @font-face {
-	font-family: 'Roboto Medium'; 
-	src: local('Roboto Medium'),
-		url(./fonts/Roboto-Medium.ttf); 
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto Medium'),
+    url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: local('Roboto Medium'),
+    url(./fonts/Roboto-Light.ttf);
 }
 
 .container {
@@ -51,6 +42,10 @@
     padding-bottom: 60px;
 }
 
+.logo {
+  margin-bottom: 52px;
+}
+
 .logo-img {
     display: block;
     margin: 0 auto;
@@ -60,7 +55,7 @@
 .logo-text {
     text-align: center;
     color: #FFFFFF;
-    font-family: Roboto Medium;
+    font-family: Roboto-Medium;
     font-size: 15px;
     text-transform: uppercase;
 }
