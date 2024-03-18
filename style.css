@@ -209,7 +209,7 @@ h2.title {
   background-color: #EFEFEF;
 }
 
-.waiting-title {
+.waiting_title {
   margin-bottom: 18px;
   color: #252525;
   font-family: Roboto-Regular;
@@ -218,14 +218,14 @@ h2.title {
   text-align: center;
 }
 
-.waiting-line {
+.waiting_line {
   margin: 0 auto 18px;
   width: 220px;
   height: 7px;
   background-color: #F9BF3B;
 }
 
-.waiting-text {
+.waiting_text {
   margin-bottom: 46px;
   font-family: Roboto-Regular;
   font-size: 23px;
@@ -233,22 +233,22 @@ h2.title {
   text-align: center;
 }
 
-.waiting-list {
+.waiting_list {
   display: flex;
   justify-content: space-between;
 }
 
-.waiting-item {
+.waiting_item {
   display: block;
   width: 342px;
   list-style-type: none;
 }
 
-.waiting-item-img {
+.waiting_item-img {
   margin-bottom: 26px;
 }
 
-.waiting-item-text {
+.waiting_item-text {
   font-family: Roboto-Light;
   font-size: 15px;
   line-height: 21px;
