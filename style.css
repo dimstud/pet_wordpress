@@ -122,6 +122,19 @@ html {
   text-transform: uppercase;
 }
 
+.section_title {
+  margin-bottom: 18px;
+  color: #252525;
+  font-family: Roboto-Regular;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section_title_white {
+  color: #EFEFEF;
+}
+
 h1.title {
   margin-bottom: 20px;
 }
@@ -155,21 +168,14 @@ h2.title {
   bottom: 50%;
 }
 
-.promo-text {
-  margin-bottom: 72px;
-  text-align: left;
-  color: #FFFFFF;
-  font-family: Roboto-Light;
-  font-size: 21px;
-  line-height: 28px;
+.title_line {
+  margin: 0 auto 18px;
+  width: 220px;
+  height: 7px;
+  background-color: #F9BF3B;
 }
 
-.promo-text span {
-  text-transform: uppercase;
-  color: #F9BF3B;
-}
-
-.promo-btn {
+.btn {
   display: block;
   width: 313px;
   height: 72px;
@@ -186,6 +192,20 @@ h2.title {
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
+}
+
+.promo-text {
+  margin-bottom: 72px;
+  text-align: left;
+  color: #FFFFFF;
+  font-family: Roboto-Light;
+  font-size: 21px;
+  line-height: 28px;
+}
+
+.promo-text span {
+  text-transform: uppercase;
+  color: #F9BF3B;
 }
 
 .more-text {
@@ -207,22 +227,6 @@ h2.title {
   min-height: 607px;
   padding: 88px 0 75px;
   background-color: #EFEFEF;
-}
-
-.waiting_title {
-  margin-bottom: 18px;
-  color: #252525;
-  font-family: Roboto-Regular;
-  font-size: 30px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.waiting_line {
-  margin: 0 auto 18px;
-  width: 220px;
-  height: 7px;
-  background-color: #F9BF3B;
 }
 
 .waiting_text {
@@ -252,6 +256,151 @@ h2.title {
   font-family: Roboto-Light;
   font-size: 15px;
   line-height: 21px;
-  coloor: #4A4A4A;
+  color: #4A4A4A;
   text-align: center;
+}
+
+.optimization {
+  min-height: 547px;
+  padding: 108px 0 74px;
+  background-image: url('./img/woman_bg.png');
+  background-repeat: no-repeat;
+  background-position: 150px 100%;
+}
+
+.optimization_desc {
+  margin-left: 390px;
+}
+
+.optimization_title {
+  margin-bottom: 25px;
+  font-family: Roboto-Black;
+  font-size: 30px;
+  color: #299CBD;
+}
+
+.optimization_text {
+  font-family: Roboto-Light;
+  font-size: 17px;
+  line-height: 27px;
+  color: #4A4A4A;
+}
+
+.optimization_text span {
+  font-family: Roboto-Bold;
+}
+
+.finish {
+  min-height: 447px;
+  padding: 86px 0 68px;
+  background: url('./img/second_bg.png') center center/cover no-repeat;
+}
+
+.finish_line {
+  margin-bottom: 39px;
+}
+
+.finish_list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.finish_item {
+  width: 234px;
+}
+
+.finish_item_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 118px;
+  
+  margin: 0 auto 24px;
+  border-radius: 100%;
+  background-color: #B4E2FF;
+}
+
+.finish_item_desc {
+  font-family: Roboto-Light;
+  font-size: 17px;
+  line-height: 20px;
+  color: #EFEFEF;
+  text-align: center;
+}
+
+.bonus {
+  min-height: 630px;
+  padding: 85px 0 88px;
+  background-color: #EFEFEF;
+}
+
+.bonus_img {
+  width: 154px;
+  margin: 0 auto 45px;
+}
+
+.bonus_desc {
+  margin-bottom: 50px;
+  font-family: Roboto-Regular;
+  font-size: 30px;
+  line-height: 43px;
+  color: #252525;
+  text-align: center;
+}
+
+.data {
+  min-height: 512px;
+  padding: 89px 0 52px;
+}
+.data_img {
+  width: 342px;
+  margin: 0 auto 36px;
+}
+.data_title {
+  margin-bottom: 30px;
+  font-family: Roboto-Regular;
+  font-size: 30px;
+  color: #252525;
+  text-align: center;
+}
+.data_subtitle {
+  margin-bottom: 24px;
+  font-family: Roboto-Black;
+  font-size: 36px;
+  color: #299CBD;
+  text-align: center;
+}
+.data_desc {
+  font-family: Roboto-Regular;
+  font-size: 23px;
+  color: #4A4A4A;
+  text-align: center;
+}
+
+.footer {
+  min-height: 169px;
+  padding: 57px 0 69px;
+  background-color: #1A1A1A;
+}
+
+.footer_text {
+  font-family: Roboto-Light;
+  font-size: 15px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.footer_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 407px;
+  margin: 0 auto;
+}
+.footer_support {
+  margin-right: 5px;
+}
+.footer_polic {
+  margin-left: 5px;
 }
